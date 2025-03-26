@@ -437,3 +437,182 @@ body {
     font-size: 14px;
     margin: 0;
 }
+/* Media Queries for Responsiveness */
+@media (min-width: 992px) {
+    .footer {
+        margin-bottom: 50px; /* Reset margin for desktop */
+    }
+}
+
+/* Tablet-specific styles */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-title {
+        font-size: 65px;
+    }
+    
+    .hero-subtitle {
+        font-size: 22px;
+    }
+    
+    #tabletImageCarousel .carousel-inner {
+        height: 70vh;
+        max-height: 650px;
+    }
+    
+    .tournament-container {
+        height: 60vh;
+        max-height: 550px;
+    }
+    
+    .tournament-title {
+        font-size: 65px;
+    }
+    
+    .tournament-text {
+        margin-top: -50px;
+    }
+    
+    .arcade-container {
+        max-height: 170px;
+    }
+}
+
+/* Large Tablets and Small Desktops */
+@media (max-width: 1200px) {
+    .tournament-title {
+        font-size: 70px;
+    }
+
+    .tournament-text {
+        margin-top: -60px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .hero-subtitle {
+        font-size: 24px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .tournament-title {
+        font-size: 60px;
+    }
+
+    .tournament-container {
+        height: 70vh;
+        max-height: 600px;
+    }
+
+    .tournament-text {
+        margin-top: -40px;
+    }
+
+    .hero-title {
+        font-size: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .arcade-container {
+        max-height: 150px;
+    }
+    
+    /* Adjust login/signup links for mobile */
+    .navbar-nav.ms-auto .nav-link {
+        padding: 8px 12px;
+        margin: 5px 0;
+    }
+}
+
+/* Large Phones */
+@media (max-width: 767px) {
+    /* Mobile Hero Specific Styles */
+    #mobileImageCarousel .carousel-inner {
+        height: 60vh;
+        max-height: 500px;
+    }
+
+    .tournament-title {
+        font-size: 40px;
+    }
+
+    .tournament-container {
+        height: 50vh;
+        max-height: 400px;
+    }
+
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 576px) {
+    /* Mobile Hero Specific Styles */
+    #mobileImageCarousel .carousel-inner {
+        height: 50vh;
+        max-height: 400px;
+    }
+
+    .tournament-title {
+        font-size: 28px;
+    }
+
+    .tournament-container {
+        height: 40vh;
+    }
+
+    .tournament-text {
+        margin-top: -20px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+
+    .arcade-container {
+        max-height: 100px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 8px;
+    }
+
+    /* Further adjustments for very small screens */
+    .navbar-nav.ms-auto .nav-link {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .navbar-nav.ms-auto .nav-link i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .footer {
+        margin-bottom: 70px;
+    }
+}
+.abouttxt {color : #00f2ff;}
