@@ -557,7 +557,7 @@ body {
 }
 
 /* Small Phones */
-@media (max-width: 576px) {
+@media (max-width: 577px) {
     /* Mobile Hero Specific Styles */
     #mobileImageCarousel .carousel-inner {
         height: 50vh;
