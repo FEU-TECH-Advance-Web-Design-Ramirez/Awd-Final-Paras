@@ -62,3 +62,42 @@ Usage: Designers will use Figma to create mockups and share design components.
  Documentation & Testing
 Teams will maintain a README.md file with project details.
 
+Week 2 Activities.
+
+1. HTML & CSS Fundamentals Review
+ Quick recap of HTML structure and CSS styling.
+ Best practices for responsive design.
+
+2. Wireframing & Prototyping
+ Figma Designers present initial wireframes based on the persona.
+
+
+Layout & structure
+
+Navigation flow
+
+Visual hierarchy
+
+3. Development Kickoff
+ Developers start setting up the project using semantic HTML.
+ Apply initial CSS styles (or a CSS framework) based on the Figma design.
+
+4. Documentation & Testing Plan
+ Documentation team drafts:
+
+Project guide
+
+Testing criteria & usability checkpoints
+
+2-Hour Demo Session
+ Live Coding Session:
+ Build a basic HTML scaffold.
+ Apply initial CSS styles.
+ Demonstrate translating Figma designs → HTML/CSS.
+ Tips for responsive design & setting up a grid layout.
+
+Takeaway
+By the end of Week 2, each group should have:
+ A working static web page
+ A layout reflecting their persona’s requirements.
+
