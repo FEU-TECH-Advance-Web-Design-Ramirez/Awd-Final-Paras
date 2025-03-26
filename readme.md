@@ -26,7 +26,7 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -56,7 +56,7 @@
 AWD Test Paras is an interactive gaming platform that hosts Tekken and Tetris tournaments. Users can sign up as either an organizer or a player. Organizers can set up tournaments, manage participants, and schedule matches, while players can join competitions and showcase their skills. The platform ensures a seamless tournament experience with an engaging UI and smooth gameplay mechanics.
 
 
-### Key Components
+### Key Component
 - Tournament Management System
 - Player and Organizer Sign-up System
 - Interactive UI Elements
