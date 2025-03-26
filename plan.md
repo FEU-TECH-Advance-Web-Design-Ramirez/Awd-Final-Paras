@@ -62,4 +62,3 @@ Usage: Designers will use Figma to create mockups and share design components.
  Documentation & Testing
 Teams will maintain a README.md file with project details.
 
-Functionalities will be tested using browser dev tools and user feedback.
