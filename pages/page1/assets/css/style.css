@@ -122,3 +122,218 @@ body {
 .nav-icons-mobile .nav-link:hover {
     color: cyan;
 }
+
+* Mobile logo fix */
+@media (max-width: 991px) {
+    .logo-container-mobile {
+        margin-right: auto;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+}
+
+/* Media query for mobile view */
+@media (max-width: 991px) {
+    /* This will ensure the desktop icons are completely hidden on mobile */
+    .nav-icons {
+        display: none !important; /* Added !important to override any other styles */
+        visibility: hidden; /* Double protection to ensure it's hidden */
+        opacity: 0;
+    }
+
+    .nav-icons-mobile {
+        display: flex; /* Show mobile social icons */
+    }
+
+    .footer {
+        margin-bottom: 50px; /* Add space for the mobile social icons */
+    }
+}
+
+/* Ensure the desktop view is correct */
+@media (min-width: 992px) {
+    .nav-icons {
+        display: flex !important; /* Show desktop icons */
+    }
+
+    .nav-icons-mobile {
+        display: none !important; /* Hide mobile icons */
+    }
+
+    .footer {
+        margin-bottom: 0; /* Remove extra footer space */
+    }
+}
+
+/* Mobile logo fix */
+@media (max-width: 991px) {
+    .logo-container-mobile {
+        margin-right: auto;
+        margin-left: 0;
+        text-align: left;
+    }
+    
+    .navbar-toggler {
+        margin-left: auto;
+    }
+}
+
+/* Media query for mobile view - IMPORTANT FIX */
+@media (max-width: 991px) {
+    /* This will ensure the desktop icons are completely hidden on mobile */
+    .nav-icons {
+        display: none !important; /* Added !important to override any other styles */
+        visibility: hidden; /* Double protection to ensure it's hidden */
+        opacity: 0;
+    }
+    
+    .nav-icons-mobile {
+        display: flex; /* Show mobile social icons */
+    }
+    
+    .footer {
+        margin-bottom: 50px; /* Add space for the mobile social icons */
+    }
+}
+
+/* Media query for mobile view - IMPORTANT FIX */
+@media (max-width: 991px) {
+    /* This will ensure the desktop icons are completely hidden on mobile */
+    .nav-icons {
+        display: none !important; /* Added !important to override any other styles */
+        visibility: hidden; /* Double protection to ensure it's hidden */
+        opacity: 0;
+    }
+    
+    .nav-icons-mobile {
+        display: flex; /* Show mobile social icons */
+    }
+    
+    .footer {
+        margin-bottom: 70px; /* Add space for the mobile social icons */
+    }
+    
+    /* Enhance navbar drop shadow for mobile */
+    .navbar {
+        box-shadow: 0 3px 12px rgba(0, 242, 255, 0.5);
+    }
+}
+
+/* Ensure the desktop view is correct */
+@media (min-width: 992px) {
+    .nav-icons {
+        display: flex !important; /* Show desktop icons */
+    }
+    
+    .nav-icons-mobile {
+        display: none !important; /* Hide mobile icons */
+    }
+    
+    .footer {
+        margin-bottom: 0; /* Remove extra footer space */
+    }
+}
+
+/* Team Section - Full Screen */
+.team-section {
+    min-height: 75vh;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.team-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.team-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #00f2ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.team-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 0 10px #00f2ff;
+}
+
+.tetris-highlight {
+    color: #00f2ff;
+}
+
+.valorant-highlight {
+    color: #f72e2e;
+}
+
+/* Mission and Vision Sections */
+.info-sections {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.mission-section, .vision-section {
+    width: 48%;
+    padding: 30px;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.mission-section:before, .vision-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    background: linear-gradient(135deg, #00f2ff 0%, transparent 50%, #00f2ff 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    padding: 2px;
+    pointer-events: none;
+}
+
+.section-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+    color: #00f2ff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+.section-content {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
